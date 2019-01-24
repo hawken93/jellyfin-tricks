@@ -8,6 +8,8 @@ This script is intended to help rebase your branch after jellyfin is minified. M
 in the script before you run it, and that you also read and understand it. I can't make any guarantees, so take backups if you are
 unsure.
 
+quick backup snippet: `tar -cvf ../jellyfin-git-backup-2019-01.tar .git`
+
 Varibles it takes are:
 * BRANCH - branch that you want to rebase
 * NEWBRANCH - branch that this script will create which will be rebased
