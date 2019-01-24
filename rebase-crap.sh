@@ -4,7 +4,7 @@ BRANCH=ffprobe_verbosity
 NEWBRANCH=ffprobe_verbosity_small
 
 OLDDEST=origin/dev
-NEWDEST=dev_small
+NEWDEST=upstream/dev
 
 set -e
 
