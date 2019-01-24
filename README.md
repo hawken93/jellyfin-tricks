@@ -16,5 +16,4 @@ Varibles it takes are:
 * OLDDEST - old dev branch, i.e. the big upstream branch
 * NEWDEST - new dev branch, i.e. the small upstream branch
 
-If I am to speculate, I think NEWDEST will become either upstream/dev or upstream/master.
-OLDDEST is currently upstream/dev but I think it will become upstream/olddev or stay as upstream/dev if master is the new target. This assumes that your git remote upstream points to git@github.com:jellyfin/jellyfin.git
+I think how this will look is that NEWDEST will be upstream/dev or master. Time will tell. OLDDEST will be origin/dev since your own fork is assumed to not track upstream after the change. Otherwise I'll make an olddev branch in hawken93/jellyfin.git. Talk to me if you need help with this, I'm on jellyfin's matrix chat. :)
