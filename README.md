@@ -16,5 +16,5 @@ Varibles it takes are:
 * OLDDEST - old dev branch, i.e. the big upstream branch
 * NEWDEST - new dev branch, i.e. the small upstream branch
 
-If I am to speculate, I think NEWDEST will become either origin/dev or origin/master.
-OLDDEST is currently origin/dev but I think it will become origin/olddev or stay as dev if master is the new target. This assumes that your git remote origin points to git@github.com:jellyfin/jellyfin.git
+If I am to speculate, I think NEWDEST will become either upstream/dev or upstream/master.
+OLDDEST is currently upstream/dev but I think it will become upstream/olddev or stay as upstream/dev if master is the new target. This assumes that your git remote upstream points to git@github.com:jellyfin/jellyfin.git
