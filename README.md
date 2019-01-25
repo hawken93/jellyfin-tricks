@@ -16,4 +16,8 @@ Varibles it takes are:
 * OLDDEST - old dev branch, i.e. the big upstream branch
 * NEWDEST - new dev branch, i.e. the small upstream branch
 
-I think how this will look is that NEWDEST will be upstream/dev or master. Time will tell. OLDDEST will be origin/dev since your own fork is assumed to not track upstream after the change. Otherwise I'll make an olddev branch in hawken93/jellyfin.git. Talk to me if you need help with this, I'm on jellyfin's matrix chat. :)
+NEWDEST is upstream/master.
+
+OLDDEST is probably dev or origin/dev (the old dev branch).
+
+OLDDEST is origin/dev since you probably didn't delete it yet. In an emergency, I have an olddev branch in [my fork](https://github.com/hawken93/jellyfin/tree/olddev) :)

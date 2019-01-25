@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-BRANCH=ffprobe_verbosity
-NEWBRANCH=ffprobe_verbosity_small
+BRANCH=thebranch
+NEWBRANCH=thebranch_new
 
-OLDDEST=origin/dev
-NEWDEST=upstream/dev
+OLDDEST=dev
+NEWDEST=origin/master
 
 set -e
 
