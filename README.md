@@ -34,3 +34,5 @@ This script tries to install ffmpeg 4.0.3 with nvenc/nvdec/vaapi in /usr/local/b
 However, it's only tested on debian stretch and will probably break on whatever distro you are using. If you can tell me what you had to change to make it work, I can try to accommodate this :)
 
 Should be relatively safe to run but it might install a ton of dependencies without asking you. Remove the -v in apt-get install if this is concerning :P
+
+Important: On the box that is going to run this, you also need to apt-get install libnvcuvid1. Otherwise ffmpeg will not be able to use the nvidia hardware encoding
