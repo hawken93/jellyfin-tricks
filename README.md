@@ -2,6 +2,11 @@
 
 Just random scripts that can be useful with jellyfin development.
 
+## LICENSE
+
+MIT
+
+These are not very sophisticated scripts and therefore I want to grant you maximum flexibility with them. :)
 
 ## rebase-crap.sh
 
