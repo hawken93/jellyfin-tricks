@@ -23,8 +23,8 @@ git pull --rebase
 make install
 
 cd /usr/src/ffmpeg
-#git fetch --all -p
-#git checkout n4.0.3
+git fetch --all -p
+git checkout n4.0.3
 
 ./configure \
 	--prefix=/usr/local \
