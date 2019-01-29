@@ -26,4 +26,6 @@ OLDDEST is origin/dev since you probably didn't delete it yet. In an emergency, 
 ## make-ffmpeg.sh
 This script tries to install ffmpeg 4.0.3 with nvenc/nvdec/vaapi in /usr/local/bin/ffmpeg. It will clone some repos to /usr/src and do some magic.
 
+However, it's only tested on debian stretch and will probably break on whatever distro you are using. If you can tell me what you had to change to make it work, I can try to accommodate this :)
+
 Should be relatively safe to run but it might install a ton of dependencies without asking you. Remove the -v in apt-get install if this is concerning :P
