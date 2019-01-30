@@ -35,4 +35,8 @@ However, it's only tested on debian stretch and will probably break on whatever 
 
 Should be relatively safe to run but it might install a ton of dependencies without asking you. Remove the -v in apt-get install if this is concerning :P
 
-Important: On the box that is going to run this, you also need to apt-get install libnvcuvid1, libnvidia-encode1. Otherwise ffmpeg will not be able to use the nvidia hardware encoding. You also need to get the nvidia 390.x driver from backports. I wasn't able to get the 380-series driver to work. A trick to avoid hell here seems to be apt-get -t stretch-backports install ...
+Important: On the box that is going to run this, you also need to apt-get install libnvcuvid1, libnvidia-encode1. Otherwise ffmpeg will not be able to use the nvidia hardware encoding.
+
+You also need to get the nvidia 390.x driver from backports. I wasn't able to get the 380-series driver to work. A trick to avoid hell here seems to be `apt-get -t stretch-backports install nvidia-driver libnvcuvid1 libnvidia-encode1`
+
+And you need this https://github.com/keylase/nvidia-patch/ since nvidia are such bitches
